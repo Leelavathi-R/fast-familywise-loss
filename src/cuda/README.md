@@ -11,8 +11,8 @@
 Clone the repository and navigate to its root directory:
 
 ```bash
-git clone https://github.com/leelavathi/Fast-Familywise-Loss.git
-cd Fast-Familywise-Loss
+git clone https://github.com/leelavathi/fast-familywise-loss
+cd fast-familywise-loss
 ```
 
 Create and activate a Conda environment:
