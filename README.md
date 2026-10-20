@@ -1,9 +1,9 @@
-# fast-familywise-loss
+# Fast-Familywise-Loss
 Efficient CPU and GPU implementations of Familywise Loss for multiclass classification.
 
 ## Build instructions
-- [**CPU**](src/cpu/readme.md)
-- [**CUDA(GPU)**](src/cuda/readme.md)
+- **CPU:** [Build and usage instructions] (src/cpu/readme.md)
+- **CUDA(GPU):** [Build and usage instructions] (src/cuda/readme.md)
 
 ## Benchmarking
 - The `benchmarks/` directory contains scripts for reproducing the performance experiments.
