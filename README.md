@@ -2,8 +2,8 @@
 Efficient CPU and GPU implementations of Familywise Loss for multiclass classification.
 
 ## Build instructions
-- **CPU:** [Build and usage instructions](src/cpu/README.md)
-- **CUDA (GPU):** [Build and usage instructions](src/cuda/README.md)
+- **CPU:** [Build and Install](src/cpu/README.md)
+- **CUDA (GPU):** [Build and Install](src/cuda/README.md)
 
 ## Benchmarking
 - **CPU:** [Benchmark instructions](benchmarks/cpu_benchmarks/README.md)
