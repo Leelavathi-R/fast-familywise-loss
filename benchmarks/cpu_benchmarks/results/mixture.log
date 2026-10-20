@@ -1,0 +1,36 @@
+std=0.001 K=       10 reps=8910 CE/FW=  1.52 | FW (ours=0.021ms | CE (PyTo=0.032ms | FW naive=0.090ms
+std=0.001 K=      100 reps=7493 CE/FW=  1.38 | FW (ours=0.026ms | CE (PyTo=0.036ms | FW naive=0.233ms
+std=0.001 K=     1000 reps=5047 CE/FW=  1.59 | FW (ours=0.039ms | CE (PyTo=0.062ms | FW naive=1.546ms
+std=0.001 K=    10000 reps= 955 CE/FW=  1.62 | FW (ours=0.233ms | CE (PyTo=0.378ms | FW naive=9.326ms
+std=0.001 K=   100000 reps= 151 CE/FW=  2.28 | FW (ours=1.198ms | CE (PyTo=2.734ms | FW naive=127.044ms
+std=0.001 K=  1000000 reps=  15 CE/FW= 10.57 | FW (ours=11.931ms | CE (PyTo=126.112ms | FW naive=2119.564ms
+std=0.01 K=       10 reps=9501 CE/FW=  1.51 | FW (ours=0.021ms | CE (PyTo=0.032ms | FW naive=0.094ms
+std=0.01 K=      100 reps=6736 CE/FW=  1.35 | FW (ours=0.028ms | CE (PyTo=0.038ms | FW naive=0.240ms
+std=0.01 K=     1000 reps=5095 CE/FW=  1.54 | FW (ours=0.039ms | CE (PyTo=0.059ms | FW naive=1.579ms
+std=0.01 K=    10000 reps=1162 CE/FW=  2.10 | FW (ours=0.157ms | CE (PyTo=0.330ms | FW naive=9.181ms
+std=0.01 K=   100000 reps= 127 CE/FW=  2.03 | FW (ours=1.434ms | CE (PyTo=2.912ms | FW naive=141.299ms
+std=0.01 K=  1000000 reps=  15 CE/FW= 10.94 | FW (ours=11.686ms | CE (PyTo=127.802ms | FW naive=2040.889ms
+std=0.1 K=       10 reps=9034 CE/FW=  1.54 | FW (ours=0.021ms | CE (PyTo=0.032ms | FW naive=0.094ms
+std=0.1 K=      100 reps=7764 CE/FW=  1.27 | FW (ours=0.027ms | CE (PyTo=0.034ms | FW naive=0.159ms
+std=0.1 K=     1000 reps=5561 CE/FW=  1.70 | FW (ours=0.034ms | CE (PyTo=0.057ms | FW naive=1.562ms
+std=0.1 K=    10000 reps=1177 CE/FW=  2.07 | FW (ours=0.154ms | CE (PyTo=0.319ms | FW naive=9.175ms
+std=0.1 K=   100000 reps= 137 CE/FW=  2.20 | FW (ours=1.269ms | CE (PyTo=2.793ms | FW naive=136.714ms
+std=0.1 K=  1000000 reps=  15 CE/FW= 12.04 | FW (ours=10.925ms | CE (PyTo=131.591ms | FW naive=1753.437ms
+std=1 K=       10 reps=10071 CE/FW=  1.52 | FW (ours=0.021ms | CE (PyTo=0.031ms | FW naive=0.092ms
+std=1 K=      100 reps=8330 CE/FW=  1.35 | FW (ours=0.025ms | CE (PyTo=0.034ms | FW naive=0.152ms
+std=1 K=     1000 reps=5731 CE/FW=  2.12 | FW (ours=0.028ms | CE (PyTo=0.059ms | FW naive=1.832ms
+std=1 K=    10000 reps=1267 CE/FW=  2.38 | FW (ours=0.135ms | CE (PyTo=0.321ms | FW naive=9.232ms
+std=1 K=   100000 reps= 147 CE/FW=  2.26 | FW (ours=1.218ms | CE (PyTo=2.753ms | FW naive=122.460ms
+std=1 K=  1000000 reps=  16 CE/FW=  9.92 | FW (ours=12.032ms | CE (PyTo=119.322ms | FW naive=1865.928ms
+std=10 K=       10 reps=8383 CE/FW=  1.60 | FW (ours=0.021ms | CE (PyTo=0.033ms | FW naive=0.093ms
+std=10 K=      100 reps=9045 CE/FW=  1.53 | FW (ours=0.022ms | CE (PyTo=0.034ms | FW naive=0.169ms
+std=10 K=     1000 reps=5992 CE/FW=  2.08 | FW (ours=0.027ms | CE (PyTo=0.056ms | FW naive=1.629ms
+std=10 K=    10000 reps=1250 CE/FW=  2.68 | FW (ours=0.123ms | CE (PyTo=0.330ms | FW naive=9.298ms
+std=10 K=   100000 reps= 149 CE/FW=  2.44 | FW (ours=1.100ms | CE (PyTo=2.683ms | FW naive=120.698ms
+std=10 K=  1000000 reps=  15 CE/FW= 10.96 | FW (ours=10.963ms | CE (PyTo=120.168ms | FW naive=1846.261ms
+std=100 K=       10 reps=9722 CE/FW=  1.61 | FW (ours=0.020ms | CE (PyTo=0.033ms | FW naive=0.093ms
+std=100 K=      100 reps=8316 CE/FW=  1.72 | FW (ours=0.023ms | CE (PyTo=0.039ms | FW naive=0.174ms
+std=100 K=     1000 reps=4011 CE/FW=  3.24 | FW (ours=0.030ms | CE (PyTo=0.097ms | FW naive=1.673ms
+std=100 K=    10000 reps= 619 CE/FW=  5.40 | FW (ours=0.146ms | CE (PyTo=0.790ms | FW naive=9.344ms
+std=100 K=   100000 reps=  58 CE/FW=  7.70 | FW (ours=1.146ms | CE (PyTo=8.822ms | FW naive=118.792ms
+std=100 K=  1000000 reps=  11 CE/FW= 16.24 | FW (ours=10.839ms | CE (PyTo=176.055ms | FW naive=1855.581ms

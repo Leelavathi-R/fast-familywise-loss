@@ -1,0 +1,12 @@
+sigma 0.001: CE/FW 1.18-3.22 | kbar 10-3297 | K=1e6: FW 67.31 ms, CE 216.99 ms | K=1e3: FW 0.050, CE 0.062
+sigma 0.01: CE/FW 1.07-6.45 | kbar 10-387.2 | K=1e6: FW 33.95 ms, CE 218.97 ms | K=1e3: FW 0.052, CE 0.055
+sigma 0.1: CE/FW 1.05-11.32 | kbar 8.281-46.78 | K=1e6: FW 18.64 ms, CE 210.89 ms | K=1e3: FW 0.047, CE 0.056
+sigma 1: CE/FW 1.12-12.23 | kbar 2.344-6.094 | K=1e6: FW 17.39 ms, CE 212.69 ms | K=1e3: FW 0.034, CE 0.055
+sigma 10: CE/FW 1.22-13.08 | kbar 1.125-1.812 | K=1e6: FW 16.48 ms, CE 215.58 ms | K=1e3: FW 0.031, CE 0.055
+sigma 100: CE/FW 1.47-20.99 | kbar 1-1.094 | K=1e6: FW 17.18 ms, CE 349.77 ms | K=1e3: FW 0.039, CE 0.197
+dist gaussian | N 32 threads 1 | FW faster than CE: 66 / 66 | disjoint 20-80 bands: 50 | vs naive: 4.1-216.7 (n=66)
+  K in [0, 1000]: CE/FW 1.05-5.09
+  K in [1001, 100000]: CE/FW 1.19-15.88
+  K in [100001, 1e+09]: CE/FW 2.80-20.99
+  ratio < 1.15: [(0.01, 316, 1.1), (0.01, 1000, 1.07), (0.1, 32, 1.05), (0.1, 100, 1.08), (0.1, 316, 1.05), (1.0, 100, 1.12)]
+  overlapping, largest K: 3162
