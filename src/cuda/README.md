@@ -11,7 +11,7 @@
 Clone the repository and navigate to its root directory:
 
 ```bash
-git clone https://github.com/leelavathi/fast-familywise-loss
+git clone https://github.com/Leelavathi-R/fast-familywise-loss.git
 cd fast-familywise-loss
 ```
 
