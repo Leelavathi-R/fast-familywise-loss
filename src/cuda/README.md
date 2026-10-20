@@ -4,7 +4,7 @@
 
 - Python
 - PyTorch with CUDA support
-- CUDA Toolkit (including `nvcc`)
+- CUDA Toolkit (including `nvcc`), compatible with the installed PyTorch version
 - Compatible C++ compiler
 
 ## Installation
@@ -35,7 +35,7 @@ Install the CUDA extension in editable mode:
 ```bash
 pip install -e . --no-build-isolation
 ```
-
+The CUDA extension is installed as `fw_radix_cuda` and can be imported directly into Python.
 PyTorch generally detects the GPU architecture automatically.
 
 ### CUDA Architecture Issues
