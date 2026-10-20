@@ -1,8 +1,4 @@
-# Familywise loss: CPU kernel and experiments
-
-This folder contains the CPU implementation of the familywise (FW) loss described in the paper
-(single-pass threshold search), its correctness tests, and the scripts that produce every CPU
-timing figure and number.
+# Build and Installation
 
 ## Requirements
 
