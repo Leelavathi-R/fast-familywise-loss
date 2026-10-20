@@ -27,7 +27,19 @@ For example, to use Gaussian inputs:
 ```python
 inputs, targets = generate_data(B, k, scaling_factor, device)
 ```
+When changing the input distribution, update the corresponding result filenames and plotting function in `CE_FW_perf.py`.
 
+## Experimental Settings
+
+The default benchmark configuration is:
+
+- **Batch size:** 32
+- **Number of classes:** 100, 500, 1000, 5000, 10000, 50000, 100000, 500000, 1000000
+- **Scaling factors:** 0.001, 0.01, 0.1, 1.0, 10.0, 100.0
+- **Warm-up iterations:** 20
+- **Timed iterations:** 200
+- **Timing method:** CUDA events
+- **Reported statistic:** Median execution time (ms)
 ## Running Benchmarks
 
 From the repository root:
@@ -38,10 +50,16 @@ python benchmarks/cuda_benchmarks/CE_FW_perf.py
 
 ## Results
 
-The benchmark results and generated figures are saved in:
+The benchmark compares the combined forward and backward execution times of PyTorch Cross Entropy, sorting-based FWLoss, top-k-based FWLoss, and the CUDA implementation.
 
-- `results/` — CSV files containing execution times.
-- `figs/` — Performance plots.
+The script also performs correctness checks against the reference implementation.
 
-The benchmark measures the combined forward and backward execution time in milliseconds, reporting the median over 200 trials after 20 warm-up iterations.
+Generated outputs are saved in:
+
+- `results/` — CSV files containing execution times in milliseconds.
+- `figs/` — Performance comparison plots.
+
+## Reproducibility
+
+Benchmark runtimes may vary depending on the GPU model, CUDA version, PyTorch version, and system configuration.
 
